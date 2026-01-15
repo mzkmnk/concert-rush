@@ -1,6 +1,6 @@
-FROM node:20-bullseye-sli AS builder
+FROM node:22.22.0-alpine AS builder
 WORKDIR /app
-COPY package*.jon ./
+COPY package*.json ./
 RUN npm ci
 COPY . .
 RUN npm run build
