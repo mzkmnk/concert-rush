@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - "main"
-  paths:
-    - "apps/backend/**"
+    paths:
+      - "apps/backend/**"
 
 env:
   REGISTRY: ghcr.io
