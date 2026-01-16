@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ghcr.io/mzkmnk/concert-rush-backend:latest
+          image: ghcr.io/mzkmnk/concert-rush-backend:4220eba738e0950c482ea69456e6d9d03fcffe05
           imagePullPolicy: Always
           resources:
             requests:
