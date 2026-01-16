@@ -3,9 +3,9 @@ name: dev build and push docker image
 on:
   push:
     branches:
-      - "**"
-  # paths:
-  #   - "apps/backend/**"
+      - "main"
+  paths:
+    - "apps/backend/**"
 
 env:
   REGISTRY: ghcr.io
