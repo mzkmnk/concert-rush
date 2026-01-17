@@ -9,6 +9,10 @@ spec:
     repoURL: https://github.com/mzkmnk/concert-rush.git
     targetRevision: main
     path: charts/backend
+    helm:
+      releaseName: concert-rush-backend
+      valueFiles:
+        - values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: concert-rush
