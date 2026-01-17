@@ -1,0 +1,7 @@
+namespace: concert-rush
+
+replicaCount: 2
+
+image:
+  repository: ghcr.io/mzkmnk/concert-rush-backend
+  tag: 4220eba738e0950c482ea69456e6d9d03fcffe05

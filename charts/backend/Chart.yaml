@@ -1,0 +1,6 @@
+apiVersion: v2
+name: concert-rush-backend
+description: A helm chart for Concert Rush Backend
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
