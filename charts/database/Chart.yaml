@@ -1,0 +1,5 @@
+apiVersion: v2
+name: concert-rush-db
+description: A helm chart for Concert Rush DB
+type: application
+version: 0.1.0
