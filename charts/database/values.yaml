@@ -1,0 +1,6 @@
+pd:
+  replicas: 3
+tikv:
+  replicas: 3
+tidb:
+  replicas: 1
